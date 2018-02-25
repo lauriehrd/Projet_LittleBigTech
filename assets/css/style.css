@@ -1,5 +1,4 @@
 body {
-  background: #9C0F5F;
   font-family: Arial;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -7,6 +6,11 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none; }
+
+button {
+  border: 1px solid black;
+  padding: 10px;
+  background-color: transparent; }
 
 h1 {
   cursor: default; }
@@ -28,10 +32,10 @@ h1 {
   border: 1px solid black; }
 
 .red {
-  background: #F2671F; }
+  background: Crimson; }
 
 .black {
-  background: #160A47; }
+  background: white; }
 
 .red.piece {
   background: #C01A24; }
